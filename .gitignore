@@ -1,0 +1,25 @@
+# Dependencies (recreated by `npm install`)
+node_modules/
+
+# Build output (recreated by `npm run build`)
+dist/
+*.tsbuildinfo
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# SQLite database files (local data — added ahead of the Prisma work)
+*.sqlite
+*.sqlite3
+*.db
+prisma/*.db
+prisma/*.db-journal
+
+# Logs & OS cruft
+*.log
+.DS_Store
+
+# Claude Code local files
+.claude/
