@@ -21,5 +21,9 @@ prisma/*.db-journal
 *.log
 .DS_Store
 
+# Editor cruft (Vim backup/undo files)
+*~
+*.un~
+
 # Claude Code local files
 .claude/

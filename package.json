@@ -2,10 +2,12 @@
   "name": "debt-tracker",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "description": "Full-stack personal finance app that models debt payoff strategies.",
   "workspaces": [
     "client",
-    "server"
+    "server",
+    "database"
   ],
   "scripts": {
     "dev": "concurrently -n server,client -c blue,green \"npm run dev -w server\" \"npm run dev -w client\"",
@@ -13,6 +15,14 @@
     "start": "node server/dist/index.js"
   },
   "devDependencies": {
-    "concurrently": "^9.1.2"
+    "@eslint/js": "^10.0.1",
+    "concurrently": "^9.1.2",
+    "eslint": "^10.7.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.3",
+    "globals": "^17.7.0",
+    "prettier": "^3.9.5",
+    "typescript-eslint": "^8.63.0"
   }
 }
