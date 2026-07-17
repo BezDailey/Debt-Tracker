@@ -40,12 +40,12 @@ All issues on the GitHub project board follow an **Epic → Task** hierarchy:
 
 The project board uses two classification fields:
 - **Hierarchy** — `Epic` (top-level grouping) or `Task` (individual work item under an Epic). Epics use GitHub's sub-issues feature to track child tasks.
-- **Type** — the work type: `feat`, `fix`, `chore`, `docs`, `refactor`, `test`, `ci`, `style`, `perf`. Matches the commit/branch prefix.
+- **Type** — the work type: `feat`, `fix`, `chore`, `docs`, `refactor`, `test`, `ci`, `style`, `perf`. Matches the commit/branch prefix. All issues (both epics and tasks) must have a Type.
 
 **When creating a new issue**, always:
 1. Assign a work-type label (`feat`, `fix`, `chore`, `docs`, `refactor`, `test`, `ci`, `style`, `perf`)
 2. Find the appropriate parent Epic and add the new issue as a sub-issue. If no fitting Epic exists, create one first (label it `epic`, set Hierarchy to "Epic" on the project board)
-3. Add the issue to the "Debt Tracker" project board (project #4) and set the "Hierarchy" field to `Task`, the "Type" field to match the label, and a "Target Date"
+3. Add the issue to the "Debt Tracker" project board (project #4) and set the "Hierarchy" field (`Epic` or `Task`), the "Type" field to match the label, a "Start Date", and a "Target Date"
 4. Set the "Status" field (`Todo`, `In Progress`, or `Done`)
 
 **Current Epics:**
