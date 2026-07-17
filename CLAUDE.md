@@ -48,12 +48,6 @@ The project board uses two classification fields:
 3. Add the issue to the "Debt Tracker" project board (project #4) and set the "Hierarchy" field (`Epic` or `Task`), the "Type" field to match the label, a "Start Date", and a "Target Date"
 4. Set the "Status" field (`Todo`, `In Progress`, or `Done`)
 
-**Current Epics:**
-- #8 Epic: Core Engine — amortization calculations and payoff strategies
-- #9 Epic: API & Interfaces — REST API, CLI, and React frontend
-- #10 Epic: Infrastructure & Quality — CI/CD and test coverage
-- #11 Epic: Documentation & Standards — conventions, TSDoc, docs
-
 ## Contributing
 
 All code changes to `main` go through pull requests — never commit directly to `main`. Branch, push, and open a PR.
